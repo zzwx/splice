@@ -2,7 +2,7 @@
 
 # Splice
 
-Package splice is a simple implementation of the JavaScript's array.splice function for []string in go (golang).
+Package splice is a simple implementation of JavaScript's array.splice function for []string in go (golang).
 
 # Usage
 

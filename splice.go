@@ -1,4 +1,4 @@
-// Package splice is a simple implementation of the JavaScript's array.splice function for []string in go (golang).
+// Package splice is a simple implementation of JavaScript's array.splice function for []string in go (golang).
 package splice
 
 // Strings emulates JavaScript's array.splice function for string type.
@@ -16,7 +16,7 @@ package splice
 // The elements to add to the slice, beginning from start.
 // If you do not specify any elements, splice() will only remove elements from the slice.
 //
-// Differences from the JavaScript version:
+// Differences from JavaScript version:
 //
 // * Only items can be optional
 //
