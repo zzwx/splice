@@ -1,6 +1,6 @@
-![github.com/zzwx/slice](./doc/gobadge.svg)
+![github.com/zzwx/splice](./doc/gobadge.svg)
 
-# Slice
+# Splice
 
 Package splice is a simple implementation of the JavaScript's array.splice function for []string in go (golang).
 
@@ -15,7 +15,7 @@ fmt.Println("deleted:", deleted)
 // source: [0 1]
 // deleted: [a]
 
-// Emulate one argument source.slice(1)
+// Emulate one argument source.splice(1)
 source = []string{"a", "b", "c"}
 deleted = Strings(&source, 1, len(source))
 fmt.Println("source:", source)

@@ -10,7 +10,7 @@ func ExampleStrings() {
 	deleted := Strings(&source, 0, 1, "0", "1")
 	fmt.Println("source:", source)
 	fmt.Println("deleted:", deleted)
-	// Emulate one argument source.slice(1)
+	// Emulate one argument source.splice(1)
 	source = []string{"a", "b", "c"}
 	deleted = Strings(&source, 1, len(source))
 	fmt.Println("source:", source)
