@@ -1,4 +1,4 @@
-![github.com/zzwx/splice](./doc/gobadge.svg)
+[![github.com/zzwx/splice](doc/splice-gobadge.svg)](https://pkg.go.dev/github.com/zzwx/splice)
 
 # Splice
 
