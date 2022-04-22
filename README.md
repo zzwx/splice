@@ -2,26 +2,21 @@
 
 # Splice
 
-Package splice is a simple implementation of JavaScript's array.splice function for []string in go (golang).
+Package splice is an generics implementation of JavaScript's `array.splice` function for `[]T` where `T` is constrained as `any`.
 
-# Usage
+# Example
 
 ```go
-import "github.com/zzwx/splice"
+import "github.com/zzwx/splice/v2"
 
-// Delete one element starting with index #0, and squeeze in ["0","1"]
-source := []string{`a`}
-deleted := splice.Strings(&source, 0, 1, "0", "1")
-fmt.Println("source:", source)
-fmt.Println("deleted:", deleted)
-// source: [0 1]
-// deleted: [a]
-
-// Emulate one argument source.splice(1)
-source = []string{"a", "b", "c"}
-deleted = splice.Strings(&source, 1, len(source))
-fmt.Println("source:", source)
-fmt.Println("deleted:", deleted)
-// source: [a]
-// deleted: [b c]
+var months = []string{"Jan", "March", "April", "June"}
+splice.Splice(&months, 1, 0, "Feb") // inserts at index 1
+fmt.Println(months)
+deleted := splice.Splice(&months, 4, 1, "May") // replaces 1 element at index 4
+fmt.Println(months)
+fmt.Println(deleted)
+// Output:
+// [Jan Feb March April June]
+// [Jan Feb March April May]
+// [June]
 ```

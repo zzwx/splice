@@ -1,3 +1,3 @@
-module github.com/zzwx/splice
+module github.com/zzwx/splice/v2
 
-go 1.13
+go 1.18
