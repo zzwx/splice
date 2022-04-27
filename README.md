@@ -1,8 +1,12 @@
-[![https://github.com/zzwx/splice](doc/splice-gobadge.svg)](https://pkg.go.dev/github.com/zzwx/splice)
+[![https://github.com/zzwx/splice](doc/splice-gobadge.svg)](https://pkg.go.dev/github.com/zzwx/splice/v2)
 
 # Splice
 
-Package splice is an generics implementation of JavaScript's `array.splice` function for `[]T` where `T` is constrained as `any`.
+Package splice is a `go1.18` generics implementation of JavaScript's `array.splice` function for `[]T` where `T` is constrained to `any`.
+
+## v1
+
+For a non-generic string-only version use [import "github.com/zzwx/splice](https://pkg.go.dev/github.com/zzwx/splice).
 
 # Example
 
