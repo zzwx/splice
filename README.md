@@ -6,7 +6,7 @@ Package splice is a `go1.18` generics implementation of JavaScript's `array.spli
 
 ## v1
 
-For a non-generic string-only version use [import "github.com/zzwx/splice](https://pkg.go.dev/github.com/zzwx/splice).
+For a non-generic string-only version use [import "github.com/zzwx/splice"](https://pkg.go.dev/github.com/zzwx/splice).
 
 # Example
 
